@@ -21,17 +21,17 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
 	"github.com/edgexfoundry/go-mod-messaging/v3/messaging"
 	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos"
 
 	"github.com/hashicorp/go-multierror"
 	gometrics "github.com/rcrowley/go-metrics"

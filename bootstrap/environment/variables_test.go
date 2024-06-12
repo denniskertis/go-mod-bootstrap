@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	loggerMocks "github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger/mocks"
+	loggerMocks "github.com/denniskertis/go-mod-core-contracts/v42/clients/logger/mocks"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

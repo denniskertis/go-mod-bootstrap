@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 
 	"github.com/labstack/echo/v4"
 )

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
-	clientinterfaces "github.com/edgexfoundry/go-mod-core-contracts/v3/clients/interfaces"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
+	clientinterfaces "github.com/denniskertis/go-mod-core-contracts/v42/clients/interfaces"
 )
 
 type jwtSecretProvider struct {

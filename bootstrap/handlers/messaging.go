@@ -22,11 +22,11 @@ import (
 	"github.com/edgexfoundry/go-mod-messaging/v3/messaging"
 	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	boostrapMessaging "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/messaging"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	boostrapMessaging "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/messaging"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 )
 
 // MessagingBootstrapHandler fulfills the BootstrapHandler contract.  If creates and initializes the Messaging client

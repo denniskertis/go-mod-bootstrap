@@ -1,11 +1,11 @@
-module github.com/edgexfoundry/go-mod-bootstrap/v3
+module github.com/denniskertis/go-mod-bootstrap/v42
 
 go 1.21
 
 require (
+	github.com/denniskertis/go-mod-core-contracts/v42 v42.101.5
 	github.com/eclipse/paho.mqtt.golang v1.4.3
 	github.com/edgexfoundry/go-mod-configuration/v3 v3.2.0-dev.7
-	github.com/edgexfoundry/go-mod-core-contracts/v3 v3.2.0-dev.20
 	github.com/edgexfoundry/go-mod-messaging/v3 v3.2.0-dev.20
 	github.com/edgexfoundry/go-mod-registry/v3 v3.2.0-dev.8
 	github.com/edgexfoundry/go-mod-secrets/v3 v3.2.0-dev.5
@@ -28,6 +28,7 @@ require (
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/edgexfoundry/go-mod-core-contracts/v3 v3.2.0-dev.20 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa // indirect
@@ -51,7 +52,7 @@ require (
 	github.com/go-openapi/validate v0.24.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.20.0 // indirect
+	github.com/go-playground/validator/v10 v10.21.0 // indirect
 	github.com/go-redis/redis/v7 v7.3.0 // indirect
 	github.com/go-resty/resty/v2 v2.13.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect

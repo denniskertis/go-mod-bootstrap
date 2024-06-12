@@ -15,7 +15,7 @@
 package container
 
 import (
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
 	"github.com/edgexfoundry/go-mod-registry/v3/registry"
 )

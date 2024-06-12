@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/utils"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/utils"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
 	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
 )

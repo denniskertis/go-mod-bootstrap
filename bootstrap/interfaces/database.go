@@ -14,7 +14,7 @@
 
 package interfaces
 
-import "github.com/edgexfoundry/go-mod-bootstrap/v3/config"
+import "github.com/denniskertis/go-mod-bootstrap/v42/config"
 
 // CredentialsProvider interface provides an abstraction for obtaining credentials.
 type CredentialsProvider interface {

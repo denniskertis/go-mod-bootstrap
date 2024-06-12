@@ -21,10 +21,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	commonDTO "github.com/denniskertis/go-mod-core-contracts/v42/dtos/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
 
 	"github.com/labstack/echo/v4"
 )

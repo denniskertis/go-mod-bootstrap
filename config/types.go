@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
 	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/types"
 	"github.com/edgexfoundry/go-mod-secrets/v3/secrets"
 )
