@@ -35,7 +35,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	configurationMocks "github.com/edgexfoundry/go-mod-configuration/v3/configuration/mocks"
+	configurationMocks "github.com/denniskertis/go-mod-configuration/v42/configuration/mocks"
 )
 
 // mockObjects holds the various mocks needed for running these tests

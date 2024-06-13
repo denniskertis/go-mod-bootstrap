@@ -26,8 +26,8 @@ import (
 	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/messaging"
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/messaging"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 	"github.com/denniskertis/go-mod-core-contracts/v42/common"

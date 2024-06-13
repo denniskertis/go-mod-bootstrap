@@ -25,9 +25,9 @@ import (
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/interfaces"
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 	"github.com/denniskertis/go-mod-core-contracts/v42/common"
-	clientsMessaging "github.com/edgexfoundry/go-mod-messaging/v3/clients"
-	"github.com/edgexfoundry/go-mod-registry/v3/pkg/types"
-	"github.com/edgexfoundry/go-mod-registry/v3/registry"
+	clientsMessaging "github.com/denniskertis/go-mod-messaging/v42/clients"
+	"github.com/denniskertis/go-mod-registry/v42/pkg/types"
+	"github.com/denniskertis/go-mod-registry/v42/registry"
 
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/config"
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"

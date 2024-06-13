@@ -45,13 +45,13 @@ import (
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
 	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
-	"github.com/edgexfoundry/go-mod-configuration/v3/configuration"
-	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
+	"github.com/denniskertis/go-mod-configuration/v42/configuration"
+	"github.com/denniskertis/go-mod-configuration/v42/pkg/types"
 
 	clientinterfaces "github.com/denniskertis/go-mod-core-contracts/v42/clients/interfaces"
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/messaging"
+	"github.com/denniskertis/go-mod-messaging/v42/messaging"
 )
 
 const (

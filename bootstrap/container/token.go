@@ -15,7 +15,7 @@
 package container
 
 import (
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/authtokenloader"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/token/authtokenloader"
 
 	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 )

@@ -19,8 +19,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/messaging"
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/messaging"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
 	boostrapMessaging "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/messaging"

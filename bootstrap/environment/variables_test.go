@@ -28,8 +28,8 @@ import (
 
 	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 
+	"github.com/denniskertis/go-mod-configuration/v42/pkg/types"
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
-	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

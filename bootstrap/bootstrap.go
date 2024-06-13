@@ -35,7 +35,7 @@ import (
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/utils"
 	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
-	"github.com/edgexfoundry/go-mod-registry/v3/registry"
+	"github.com/denniskertis/go-mod-registry/v42/registry"
 
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 	"github.com/denniskertis/go-mod-core-contracts/v42/models"

@@ -29,7 +29,7 @@ import (
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 
-	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
+	"github.com/denniskertis/go-mod-configuration/v42/pkg/types"
 )
 
 const (

@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/denniskertis/go-mod-core-contracts/v42/common"
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/types"
-	"github.com/edgexfoundry/go-mod-secrets/v3/secrets"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/types"
+	"github.com/denniskertis/go-mod-secrets/v42/secrets"
 )
 
 const (

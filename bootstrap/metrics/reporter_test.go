@@ -31,8 +31,8 @@ import (
 	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/messaging/mocks"
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/messaging/mocks"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 )
 
 func TestNewMessageBusReporter(t *testing.T) {

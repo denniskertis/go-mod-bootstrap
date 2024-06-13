@@ -5,7 +5,7 @@
 
 ## Change Logs for EdgeX Dependencies
 
-- [go-mod-core-contracts](https://github.com/edgexfoundry/go-mod-core-contracts/blob/main/CHANGELOG.md)
+- [go-mod-core-contracts](https://github.com/denniskertis/go-mod-messaging/v42/blob/main/CHANGELOG.md)
 - [go-mod-messaging](https://github.com/edgexfoundry/go-mod-messaging/blob/main/CHANGELOG.md)
 - [go-mod-registry](https://github.com/edgexfoundry/go-mod-registry/blob/main/CHANGELOG.md)
 - [go-mod-secrets](https://github.com/edgexfoundry/go-mod-secrets/blob/main/CHANGELOG.md)

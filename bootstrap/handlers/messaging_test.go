@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
-	"github.com/edgexfoundry/go-mod-messaging/v3/messaging"
+	"github.com/denniskertis/go-mod-messaging/v42/messaging"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 

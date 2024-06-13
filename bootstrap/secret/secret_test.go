@@ -33,7 +33,7 @@ import (
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
 	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/authtokenloader/mocks"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/token/authtokenloader/mocks"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

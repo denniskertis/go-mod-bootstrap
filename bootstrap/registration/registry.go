@@ -25,8 +25,8 @@ import (
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 	"github.com/denniskertis/go-mod-core-contracts/v42/common"
 
-	registryTypes "github.com/edgexfoundry/go-mod-registry/v3/pkg/types"
-	"github.com/edgexfoundry/go-mod-registry/v3/registry"
+	registryTypes "github.com/denniskertis/go-mod-registry/v42/pkg/types"
+	"github.com/denniskertis/go-mod-registry/v42/registry"
 
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"

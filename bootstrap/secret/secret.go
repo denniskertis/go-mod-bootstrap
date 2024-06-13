@@ -25,8 +25,8 @@ import (
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/environment"
 	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/types"
-	"github.com/edgexfoundry/go-mod-secrets/v3/secrets"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/types"
+	"github.com/denniskertis/go-mod-secrets/v42/secrets"
 	gometrics "github.com/rcrowley/go-metrics"
 
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
@@ -34,9 +34,9 @@ import (
 	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
 	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/authtokenloader"
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/fileioperformer"
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/runtimetokenprovider"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/token/authtokenloader"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/token/fileioperformer"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/token/runtimetokenprovider"
 )
 
 // secret service Metric Names
