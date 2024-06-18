@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/metrics"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/metrics"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 )
 
 type RegisterTelemetryFunc func(logger.LoggingClient, *config.TelemetryInfo, interfaces.MetricsManager)

@@ -16,8 +16,8 @@
 package container
 
 import (
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-messaging/v3/messaging"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-messaging/v42/messaging"
 )
 
 // MessagingClientName contains the name of the messaging client instance in the DIC.

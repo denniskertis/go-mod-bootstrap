@@ -16,17 +16,18 @@ package secret
 
 import (
 	"fmt"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/errors"
 	"strings"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/errors"
+
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
 	gometrics "github.com/rcrowley/go-metrics"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 )
 
 // InsecureProvider implements the SecretProvider interface for insecure secrets

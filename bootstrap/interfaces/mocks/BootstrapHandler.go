@@ -5,11 +5,11 @@ package mocks
 import (
 	context "context"
 
-	di "github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	di "github.com/denniskertis/go-mod-bootstrap/v42/di"
 
 	mock "github.com/stretchr/testify/mock"
 
-	startup "github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
+	startup "github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
 
 	sync "sync"
 )

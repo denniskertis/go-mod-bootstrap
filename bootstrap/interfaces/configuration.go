@@ -15,7 +15,7 @@
 
 package interfaces
 
-import "github.com/edgexfoundry/go-mod-bootstrap/v3/config"
+import "github.com/denniskertis/go-mod-bootstrap/v42/config"
 
 // UpdatableConfig interface allows service to have their custom configuration populated from configuration stored
 // in the Configuration Provider (aka Consul). A service using custom configuration must implement this interface

@@ -29,25 +29,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/file"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/utils"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/file"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/utils"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
 	"github.com/mitchellh/copystructure"
 	"gopkg.in/yaml.v3"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/environment"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/flags"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/startup"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/environment"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/flags"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/startup"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
 
-	"github.com/edgexfoundry/go-mod-configuration/v3/configuration"
-	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
+	"github.com/denniskertis/go-mod-configuration/v42/configuration"
+	"github.com/denniskertis/go-mod-configuration/v42/pkg/types"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 )
 
 const (

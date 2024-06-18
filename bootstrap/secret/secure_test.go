@@ -20,17 +20,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/environment"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/environment"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
 	mock2 "github.com/stretchr/testify/mock"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg"
-	mocks2 "github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/authtokenloader/mocks"
-	runtimeTokenMock "github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/runtimetokenprovider/mocks"
-	"github.com/edgexfoundry/go-mod-secrets/v3/secrets"
-	"github.com/edgexfoundry/go-mod-secrets/v3/secrets/mocks"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg"
+	mocks2 "github.com/denniskertis/go-mod-secrets/v42/pkg/token/authtokenloader/mocks"
+	runtimeTokenMock "github.com/denniskertis/go-mod-secrets/v42/pkg/token/runtimetokenprovider/mocks"
+	"github.com/denniskertis/go-mod-secrets/v42/secrets"
+	"github.com/denniskertis/go-mod-secrets/v42/secrets/mocks"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

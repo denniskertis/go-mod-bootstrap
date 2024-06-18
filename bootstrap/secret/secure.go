@@ -24,18 +24,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg"
 	gometrics "github.com/rcrowley/go-metrics"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/common"
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/authtokenloader"
-	"github.com/edgexfoundry/go-mod-secrets/v3/pkg/token/runtimetokenprovider"
-	"github.com/edgexfoundry/go-mod-secrets/v3/secrets"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/token/authtokenloader"
+	"github.com/denniskertis/go-mod-secrets/v42/pkg/token/runtimetokenprovider"
+	"github.com/denniskertis/go-mod-secrets/v42/secrets"
 )
 
 const (

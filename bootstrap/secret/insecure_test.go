@@ -16,10 +16,6 @@ package secret
 
 import (
 	"fmt"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/stretchr/testify/mock"
 	"math"
 	"reflect"
 	"sort"
@@ -27,14 +23,19 @@ import (
 	"testing"
 	"time"
 
-	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v3/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/stretchr/testify/mock"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	bootstrapConfig "github.com/denniskertis/go-mod-bootstrap/v42/config"
+
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	configurationMocks "github.com/edgexfoundry/go-mod-configuration/v3/configuration/mocks"
+	configurationMocks "github.com/denniskertis/go-mod-configuration/v42/configuration/mocks"
 )
 
 // mockObjects holds the various mocks needed for running these tests

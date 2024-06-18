@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/container"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/interfaces/mocks"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/bootstrap/secret"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/config"
-	"github.com/edgexfoundry/go-mod-bootstrap/v3/di"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/logger"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/container"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/interfaces/mocks"
+	"github.com/denniskertis/go-mod-bootstrap/v42/bootstrap/secret"
+	"github.com/denniskertis/go-mod-bootstrap/v42/config"
+	"github.com/denniskertis/go-mod-bootstrap/v42/di"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/logger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
